@@ -1,9 +1,8 @@
 //Markdown
 pandoc -s readme.docx -t markdown -o readme.md
-//angulat :
+//angular:
 
-
-)Controlleur 
+1)Controlleur 
 -------------
 Dans fichier html
 ng-controller = "nomduCtrl"
