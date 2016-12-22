@@ -72,5 +72,16 @@ angular
                Exemple  : http://URL\:id (il récupère id) 
 
 
+6) IComponentOptions : 
 
-   6) 
+interface IComponentOptions {
+ controller?: any;
+ controllerAs?: string;
+ template?: string | Function;
+ templateUrl?: string | Function;
+ bindings?: any;
+ transclude?: boolean;
+ require?: Object;
+ $canActivate?: () => boolean;
+ $routeConfig?: RouteDefinition[];
+}
