@@ -13,14 +13,16 @@ function nomduCtrl ($scoop) {
 
 2) Modules 
 ----------
-app = angular.module (monapp,[les modules angular externe à utilisés])
-  app.conroller (nomDuconroleur,['$scoop', fontion à exectuer (&scoop) {
+angular
+.module (monapp,[les modules angular externe à utilisés])
+.conroller (nomDuconroleur,['$scoop', fontion à exectuer (&scoop) {
 
 
 3) Routes                                        }
 ----------
-app = angular.module (monapp,[monapp, ['ngRoute'])
-app.config ('$routeProvider', function ($routeProvider) {
+angular
+.module (monapp,[monapp, ['ngRoute'])
+.config ('$routeProvider', function ($routeProvider) {
     $routeProvider
     .when (chemin URL,{templateUrl'partials/......'})
     .otherwise ({redrictTo : '/'})
