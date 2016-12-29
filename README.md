@@ -85,3 +85,5 @@ interface IComponentOptions {
  $canActivate?: () => boolean;
  $routeConfig?: RouteDefinition[];
 }
+/teambox/resource-rest/V1_1/collaborateurs/
+08YWRtaW5pdG90bw==
